@@ -1,3 +1,3 @@
 # Image-Compressor-SVD
 A simple Python program that uses Linear Algebra techniques, namely, Singular Value Decomposition, to compress an image file.
-This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
+Singular Value Decomposition (SVD) is a matrix factorization technique (such as the LU or QR factorizations) that can be applied to any real matrix $A\inR$
