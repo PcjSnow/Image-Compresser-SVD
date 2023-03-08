@@ -14,6 +14,7 @@ Singular Value Decomposition (SVD) is a matrix factorization technique (such as 
 <br/><br/>
 We should remark that this is obviously <b>not the best compression method</b> that exists. This is just a <b>cool application of linear algebra</b> in computer science.
 <br/><br/>
+
 The SVD factorizes $A$ into three matrices: an orthogonal matrix $U \in \mathbb{R}\_{m\times m}$, a diagonal matrix $Σ \in\mathbb{R}\_{m\times n}$ and another orthogonal matrix $V \in \mathbb{R}\_{n\times n}$. The SVD allows us to compute A in terms of these matrices: $$A = UΣV^{T}.$$
 
 The columns $(u\_{1}, u\_{2}, ...,u\_{m})$ of $U$ form an orthonormal basis for $\mathbb{R}^{m}$, the matrix $\Sigma$ contains the singular values of $A$ and the columns $(v\_{1}, v\_{2}, ...,v\_{n})$ of $V$ form an orthonormal basis for $\mathbb{R}^{n}$.
